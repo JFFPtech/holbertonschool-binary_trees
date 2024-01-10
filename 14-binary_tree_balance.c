@@ -22,7 +22,7 @@ int binary_tree_balance(const binary_tree_t *tree)
 
 	if (tree->right == NULL)
 		rh = -1;
-	
+
 	return (lh - rh);
 }
 
